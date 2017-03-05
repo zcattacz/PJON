@@ -9,11 +9,11 @@ PJON™ (Padded Jittering Operative Network) is an Arduino compatible, multi-mas
 
 ####Features
 - Configurable 2 level addressing (device and bus id) for scalable applications
-- Multi-media support with the data link layer abstraction or [Strategy](https://github.com/gioblu/PJON/tree/master/strategies) framework
+- Multi-media support with the data link layer abstraction or [Strategy](strategies) framework
 - Configurable strategies inclusion (for memory optimization)
 - Configurable 1 or 2 bytes packet length (max 255 or 65535 bytes)
-- Master-slave or multi-master [dynamic addressing](https://github.com/gioblu/PJON/blob/master/specification/PJON-dynamic-addressing-specification-v0.1.md)
-- Configurable synchronous and/or asynchronous [acknowledgement](https://github.com/gioblu/PJON/blob/master/specification/PJON-protocol-acknowledge-specification-v0.1.md) of correct packet sending
+- Master-slave or multi-master [dynamic addressing](specification/PJON-dynamic-addressing-specification-v0.1.md)
+- Configurable synchronous and/or asynchronous [acknowledgement](specification/PJON-protocol-acknowledge-specification-v0.1.md) of correct packet sending
 - Collision avoidance to enable multi-master capability
 - Selectable CRC8 or CRC32 table-less cyclic redundancy check
 - Packet manager to handle, track and if necessary retransmit a packet sending in background
@@ -21,13 +21,13 @@ PJON™ (Padded Jittering Operative Network) is an Arduino compatible, multi-mas
 - Error handling
 
 ####PJON (Padded Jittering Operative Network) Protocol specification
-- PJON [v0.1](https://github.com/gioblu/PJON/blob/master/specification/PJON-protocol-specification-v0.1.md)  - [v0.2](https://github.com/gioblu/PJON/blob/master/specification/PJON-protocol-specification-v0.2.md) - [v0.3](https://github.com/gioblu/PJON/blob/master/specification/PJON-protocol-specification-v0.3.md) - [v1.0](https://github.com/gioblu/PJON/blob/master/specification/PJON-protocol-specification-v1.0.md)
-- PJON Acknowledge [v0.1](https://github.com/gioblu/PJON/blob/master/specification/PJON-protocol-acknowledge-specification-v0.1.md)
-- PJON Dynamic addressing [v0.1](https://github.com/gioblu/PJON/blob/master/specification/PJON-dynamic-addressing-specification-v0.1.md)
+- PJON [v0.1](specification/PJON-protocol-specification-v0.1.md)  - [v0.2](specification/PJON-protocol-specification-v0.2.md) - [v0.3](specification/PJON-protocol-specification-v0.3.md) - [v1.0](specification/PJON-protocol-specification-v1.0.md)
+- PJON Acknowledge [v0.1](specification/PJON-protocol-acknowledge-specification-v0.1.md)
+- PJON Dynamic addressing [v0.1](specification/PJON-dynamic-addressing-specification-v0.1.md)
 
 ####PJDL (Padded Jittering Data Link) specification
-- PJDL [v0.1](https://github.com/gioblu/PJON/blob/master/strategies/SoftwareBitBang/specification/padded-jittering-protocol-specification-v0.1.md) - [v1.0](https://github.com/gioblu/PJON/blob/master/strategies/SoftwareBitBang/specification/PJDL-specification-v1.0.md)
-- PJDLR [v1.0](https://github.com/gioblu/PJON/blob/master/strategies/OverSampling/specification/PJDLR-specification-v1.0.md)
+- PJDL [v0.1](strategies/SoftwareBitBang/specification/padded-jittering-protocol-specification-v0.1.md) - [v1.0](strategies/SoftwareBitBang/specification/PJDL-specification-v1.0.md)
+- PJDLR [v1.0](strategies/OverSampling/specification/PJDLR-specification-v1.0.md)
 
 ####Compliant tools
 - [saleae-pjon-protocol-analyzer](https://github.com/aperepel/saleae-pjon-protocol-analyzer) by Andrew Grande
