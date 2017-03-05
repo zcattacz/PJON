@@ -79,11 +79,11 @@ Simply add your code in the functions declaration shown above and instantiate PJ
 have created: `PJON<YourStrategyName> bus();`.
 
 # PJON Supported Strategies
- - [Hardware/Software Serial port](/strategies/ThroughSerial/README.md)
- - [SoftwareBitBang](/strategies/SoftwareBitBang/README.md)
-   * [PJDL specification v1.0](/strategies/SoftwareBitBang/specification/PJDL-specification-v1.0.md)
-   * [padded jittering protocol specification v0.1](/strategies/SoftwareBitBang/specification/padded-jittering-protocol-specification-v0.1.md)
- - [Oversampling](/strategies/OverSampling/README.md)
-   * [PJDLR specification v1.0](/strategies/OverSampling/specification/PJDLR-specification-v1.0.md)
-   * [padded jittering protocol specification v0.1](/strategies/OverSampling/specification/padded-jittering-protocol-specification-v0.1.md)
+ * [Hardware/Software Serial port](/strategies/ThroughSerial/README.md)
+ * [SoftwareBitBang](/strategies/SoftwareBitBang/README.md)
+   - [PJDL specification v1.0](/strategies/SoftwareBitBang/specification/PJDL-specification-v1.0.md)
+   - [padded jittering protocol specification v0.1](/strategies/SoftwareBitBang/specification/padded-jittering-protocol-specification-v0.1.md)
+ * [Oversampling](/strategies/OverSampling/README.md)
+   - [PJDLR specification v1.0](/strategies/OverSampling/specification/PJDLR-specification-v1.0.md)
+   - [padded jittering protocol specification v0.1](/strategies/OverSampling/specification/padded-jittering-protocol-specification-v0.1.md)
 
