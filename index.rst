@@ -7,3 +7,6 @@ PJON Doc
 	README
 	/specification/README
 	/strategies/README
+	/strategies/ThroughSerial/README.md
+	/strategies/SoftwareBitBang/README.md
+	/strategies/OverSampling/README.md
