@@ -1,4 +1,4 @@
-# Software BitBang
+### Software BitBang
 
 **Medium:** Wire |
 **Pins used:** 1 / 2
