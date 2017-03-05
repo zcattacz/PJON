@@ -6,5 +6,5 @@ PJON Doc
 	:glob:
 
 	README
-	/specification/*
-	/strategies/*
+	/specification/README
+	/strategies/README
