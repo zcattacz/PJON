@@ -1,5 +1,5 @@
 
-## What is a Strategy?
+# What is a Strategy?
 
 PJON codebase uses strategies to physically communicate through the medium used, abstracting the data link layer from its procedure. We propose 6 strategies to communicate data through various media, take a look at the [strategies video introduction](https://www.youtube.com/watch?v=yPu45xoAHGg) for a brief showcase of their features. A Strategy is a class containing the back-off configuration and a set of methods able to send and receive messages:
 
@@ -57,7 +57,7 @@ void send_response(uint8_t response) {
 };
 ```
 
-####How to define a new strategy
+# How to define a new strategy
 To define your new strategy you have only to create a new folder named for example `YourStrategyName` in `strategies`
 directory and write the necessary file `YourStrategyName.h`:
 
@@ -78,15 +78,12 @@ class YourStrategyName {
 Simply add your code in the functions declaration shown above and instantiate PJON using the strategy type you
 have created: `PJON<YourStrategyName> bus();`.
 
-## PJON Supported Strategies
-
-[Hardware/Software Serial port](/strategies/ThroughSerial/README.md)
-
-[SoftwareBitBang](/strategies/SoftwareBitBang/README.md)
- - [PJDL specification v1.0](/strategies/SoftwareBitBang/specification/PJDL-specification-v1.0.md)
- - [padded jittering protocol specification v0.1](/strategies/SoftwareBitBang/specification/padded-jittering-protocol-specification-v0.1.md)
-
-[Oversampling](/strategies/OverSampling/README.md)
- - [PJDLR specification v1.0](/strategies/OverSampling/specification/PJDLR-specification-v1.0.md)
- - [padded jittering protocol specification v0.1](/strategies/OverSampling/specification/padded-jittering-protocol-specification-v0.1.md)
+# PJON Supported Strategies
+ - [Hardware/Software Serial port](/strategies/ThroughSerial/README.md)
+ - [SoftwareBitBang](/strategies/SoftwareBitBang/README.md)
+   * [PJDL specification v1.0](/strategies/SoftwareBitBang/specification/PJDL-specification-v1.0.md)
+   * [padded jittering protocol specification v0.1](/strategies/SoftwareBitBang/specification/padded-jittering-protocol-specification-v0.1.md)
+ - [Oversampling](/strategies/OverSampling/README.md)
+   * [PJDLR specification v1.0](/strategies/OverSampling/specification/PJDLR-specification-v1.0.md)
+   * [padded jittering protocol specification v0.1](/strategies/OverSampling/specification/padded-jittering-protocol-specification-v0.1.md)
 
