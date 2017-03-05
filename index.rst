@@ -6,7 +6,6 @@ PJON Doc
 	:glob:
 
 	README
-  \documentation\*
-  \specification\*
-  \strategies\*
-  
+	\documentation\*
+	\specification\*
+	\strategies\*
